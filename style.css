@@ -1,0 +1,528 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(Fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-black';
+    src: url(Fonts/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url(Fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-semi';
+    src: url(Fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-extra';
+    src: url(Fonts/Inter-ExtraBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+.section-header {
+    height: 100%;
+    background-color: #00AFB9;
+    padding-bottom: 5rem;
+}
+
+.logo {
+    font-weight: bold;
+    color: #001D3D;
+}
+
+.nav-item a {
+    font-family: Inter-semi;
+    color: #FDFCDC;
+}
+
+.portfolio-home {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 5px;
+    grid-template-rows: 70vh;
+}
+
+
+.home-tagline-text h2,
+h3,
+h1 {
+    font-weight: 600;
+    color: #FDFCDC;
+}
+
+.home-tagline-text h2 {
+    padding-top: 2rem;
+    font-size: 40px;
+}
+
+.home-tagline-text h1 {
+    font-size: 50px;
+    font-family: Inter-bold;
+}
+
+.home-tagline-text h3 {
+    font-size: 45px;
+}
+
+.frontend {
+    color: #001D3D;
+    font-family: Inter-black;
+}
+
+.name {
+    color: #FDFCDC;
+
+}
+
+.home-button {
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001D3D;
+    border: none;
+    margin-top: 5px;
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #FDFCDC;
+    font-size: 20px;
+}
+
+.home-tagline-image {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+
+}
+
+.home-tagline-image>* {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #001D3D;
+    border-radius: 50%;
+    display: flex;
+    /* Make the children flex containers */
+    justify-content: center;
+    /* Center content horizontally */
+    padding-top: 9px;
+}
+
+.home-tagline-image i {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: #001D3D;
+}
+
+
+
+.home-image {
+    background-image: url(images/hom-pic.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* end home section */
+
+
+
+/* start about section */
+.section-about {
+    height: 80vh;
+    background-color: #FDFCDC;
+}
+
+.portfolio-about {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60vh;
+    gap: 5px;
+}
+
+.about-me-para {
+    color: #001D3D;
+}
+
+.about-tagline h2 {
+    font-family: Inter-extra;
+    font-size: 30px;
+    color: #001D3D;
+}
+
+.bold-ambitions {
+    color: #00AFB9;
+    font-family: Inter-extra;
+}
+
+.about-tagline h5 {
+    font-family: Inter-bold;
+    font-size: 15px;
+    color: #001D3D;
+}
+
+.about-image {
+    background-image: url(images/about-pic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* end sa about section */
+
+
+/* start sa projects section */
+.section-projects {
+    height: 80vh;
+    background-color: #00AFB9;
+
+}
+
+.container-title {
+    color: #001D3D;
+}
+
+.portfolio-projects {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 55vh;
+    gap: 30px;
+}
+
+.project-title {
+    padding-top: 1rem;
+    font-size: 17px;
+    font-family: Inter-bold;
+    color: #001D3D
+}
+
+.project-para {
+    font-size: 15px;
+    color: #001D3D;
+
+}
+
+
+.portfolio-projects img {
+    width: 100%;
+    height: 200px;
+}
+
+/* end sa projects */
+
+/* start sa tech stack */
+
+.section-stack {
+    background-color: #001D3D;
+    height: 60vh;
+}
+
+.tech-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    gap: 128px;
+}
+
+
+.tech-grid img {
+    width: 50;
+    height: 50px;
+}
+
+.tailwind {
+    width: 45px;
+}
+
+/* end sa techstacks */
+
+/* Start sa contact */
+.section-contact {
+    height: 40vh;
+    background-color: #00AFB9;
+}
+
+.portfolio-contact {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20vh;
+    gap: 10px;
+}
+
+.portfolio-contact-platforms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.portfolio-contact-platforms>* {
+    display: flex;
+    /* Make the children flex containers */
+    justify-content: center;
+    /* Center content horizontally */
+    padding-top: 9px;
+    border: 1px solid #001D3D;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.portfolio-contact-platforms i {
+    color: #001D3D;
+}
+
+.contact-h2 {
+    font-size: 40px;
+    color: #FDFCDC;
+    font-family: Inter-extra;
+    margin: 0;
+}
+
+.contact-para {
+    margin: 0;
+    font-size: 15px;
+    color: #001D3D;
+}
+
+
+/* end sa contact */
+
+/* start sa footer */
+
+
+
+/* end sa footer */
+
+@media (max-width: 1275px) {
+    .portfolio-projects {
+        gap: 5px;
+    }
+
+}
+
+@media (max-width: 995px) {
+    .nav-item a {
+        font-size: 10px;
+    }
+
+    .home-tagline-text h2 {
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+
+    .home-tagline-text h1 {
+        font-size: 30px;
+        font-family: Inter-bold;
+    }
+
+    .home-tagline-text h3 {
+        font-size: 25px;
+    }
+
+    .home-button a {
+        text-decoration: none;
+        color: #FDFCDC;
+        font-size: 15px;
+    }
+
+    .portfolio-home {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+        grid-template-rows: 60vh;
+    }
+
+    .project-title {
+        padding-top: 1rem;
+        font-size: 12px;
+        font-family: Inter-bold;
+        color: #001D3D
+    }
+
+    .project-para {
+        font-size: 10px;
+        color: #001D3D;
+
+    }
+
+    .tech-stack {
+        font-size: 20px;
+    }
+
+    .about-tagline h2 {
+        margin-top: 2rem;
+        font-family: Inter-extra;
+        font-size: 25px;
+        color: #001D3D;
+    }
+
+    .about-me-para{
+        font-size: 10px;
+    }
+
+    .about-tagline h5 {
+        font-family: Inter-bold;
+        font-size: 12px;
+        color: #001D3D;
+    }
+
+    .contact-h2 {
+        font-size: 20px;
+        color: #FDFCDC;
+        font-family: Inter-extra;
+    }
+
+    .contact-para {
+        font-size: 10px;
+        color: #001D3D;
+    }
+
+    .container-title {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .portfolio-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio-home {
+        grid-template-columns: 100%;
+        grid-template-rows: 55vh auto;
+    }
+
+    .home-tagline-text {
+        text-align: center;
+    }
+
+    .home-tagline-image {
+        justify-content: center;
+    }
+    .home-image {
+        order: 1;
+    }
+
+    .home-tagline {
+        order: 2;
+    }
+
+    .about-me-para {
+        text-align: center;
+    }
+
+    .about-tagline {
+        text-align: center;
+    }
+    .section-about {
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .section-projects {
+        height: 100%;
+    }
+    .portfolio-about {
+    grid-template-columns: 100%;
+    grid-template-rows:20vh 40vh;
+    }
+
+    .portfolio-projects {
+        grid-template-columns: 100%;
+    grid-template-rows: 55vh 55vh 55vh;
+    }
+    .container-title {
+        text-align: center;
+    }
+    .project-title {
+        font-size: 15px;
+    }
+
+    .project-para {
+        font-size: 12px;
+    }
+    .project-title, .project-para {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-stack {
+        height: 100%;
+    }
+    .tech-grid {
+        gap: 10px;
+    }
+
+    .tech-flexbox {
+        height: 40vh;
+    }
+    .portfolio-contact {
+        grid-template-columns: 100%;
+        grid-template-rows: 5vh 15vh;
+    }
+    .portfolio-contact-list {
+        text-align: center;
+    }
+
+    .portfolio-contact-platforms {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 365px) {
+    .portfolio-home {
+        grid-template-columns: 100%;
+        grid-template-rows: 40vh auto;
+    }
+    .home-tagline-text h2 {
+        padding-top: 1rem;
+        font-size: 15px;
+    }
+
+    .home-tagline-text h1 {
+        font-size: 25px;
+        font-family: Inter-bold;
+    }
+
+    .home-tagline-text h3 {
+        font-size: 20px;
+    }
+
+    .home-button a {
+        text-decoration: none;
+        color: #FDFCDC;
+        font-size: 12px;
+    }
+
+    .about-tagline h2 {
+        font-size: 20px;
+    }
+}
