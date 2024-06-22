@@ -42,7 +42,7 @@
 
 .nav-item a {
     font-family: Inter-semi;
-    color: #FDFCDC;
+    color: white;
 }
 
 .portfolio-home {
@@ -57,7 +57,7 @@
 h3,
 h1 {
     font-weight: 600;
-    color: #FDFCDC;
+    color: white;
 }
 
 .home-tagline-text h2 {
@@ -80,7 +80,7 @@ h1 {
 }
 
 .name {
-    color: #FDFCDC;
+    color: white;
 
 }
 
@@ -95,7 +95,7 @@ h1 {
 
 .home-button a {
     text-decoration: none;
-    color: #FDFCDC;
+    color: white;
     font-size: 20px;
 }
 
@@ -140,7 +140,7 @@ h1 {
 /* start about section */
 .section-about {
     height: 80vh;
-    background-color: #FDFCDC;
+    background-color: white;
 }
 
 .portfolio-about {
@@ -291,7 +291,7 @@ h1 {
 
 .contact-h2 {
     font-size: 40px;
-    color: #FDFCDC;
+    color: white;
     font-family: Inter-extra;
     margin: 0;
 }
@@ -339,7 +339,7 @@ h1 {
 
     .home-button a {
         text-decoration: none;
-        color: #FDFCDC;
+        color: white;
         font-size: 15px;
     }
 
@@ -386,7 +386,7 @@ h1 {
 
     .contact-h2 {
         font-size: 20px;
-        color: #FDFCDC;
+        color: white;
         font-family: Inter-extra;
     }
 
@@ -518,7 +518,7 @@ h1 {
 
     .home-button a {
         text-decoration: none;
-        color: #FDFCDC;
+        color: white;
         font-size: 12px;
     }
 
